@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Gloria+Hallelujah&family=Kalam&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.color-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+    position: absolute;
+}
+
+
+
+.wrapper {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #0000003d;
+    column-gap: 15vw;
+    width: 100%;
+    position: fixed;
+    transition: height 0.1s ease-in;
+    transition: background-color 1s ease;
+    height: 95px;
+}
+
+.logo {
+    margin: 0px 118px;
+    margin-top: 5px;
+}
+
+.logo a img {
+    height: 85px;
+}
+
+.nav-area {
+    display: flex;
+    align-items: center;
+}
+
+.nav-area li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav-area a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin: 10px 28px;
+    transition: color 0.3s ease;
+}
+
+.nav-area a:hover {
+    color: orange;
+
+}
+
+.block {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    right: 9%;
+}
+
+.block-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 700px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.block-text h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.block-text h3{
+    color: orange;
+    font-family: 'Kalam', cursive;
+    font-size: 43px;
+    line-height: 40px;
+}
+
+.block-text a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bad Script', cursive;
+    color: white;
+    display: inline-block;
+    width: 230px;
+    border-radius: 15px;
+    border: solid 2px orangered;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.426);
+    transition: background-color 0.3s ease;
+}
+
+.block-text a:hover{
+    background-color: orangered;
+}
+
